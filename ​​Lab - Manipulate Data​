@@ -1,0 +1,98 @@
+​​Lab - Manipulate Data​
+Objectives
+In this lab, you will perform some basic data formatting and adjustment in Microsoft Excel.
+
+Part 1: Combine Data in an Excel Spreadsheet
+
+Part 2: Conditional Data Formatting
+
+Background / Scenario
+To enable effective analysis, data points sometimes need to be split (separated), or combined, or formatted into an appropriate type. The presentation of data can also be conditionally formatted to highlight certain values. Manipulating the data in these ways facilitates more meaningful and accurate analysis.
+
+Required Resources
+Mobile device or PC/laptop with a browser, MS Excel, and an Internet connection
+Note: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.
+
+Instructions
+Part 1: Combine Data in an Excel Spreadsheet
+Step 1: Examine the data.
+
+Open the downloaded sample CSV file Bike Sales_Manipulate_Lab 4.2.7.csv in Excel.
+
+Review the columns of data and the values they contain.
+Sometimes data in a worksheet must be manipulated to perform the desired analysis or to produce a specific result or output.
+For a specific analysis, the size information in Column M needs to be combined with the product description in Column L so that the model, color, and size are all in one column.
+
+Step 2: Combine the data.
+
+Insert a new column to the right of the current column M. This new column becomes column N.
+
+Click in cell N2 and enter the formula:
+
+=L2&”, “&M2
+
+Note: type the formula directly into the cell; do not copy and paste from the lab.
+
+Here’s what the formula is telling Excel to do:
+
+= at the beginning of the string means this cell contains a formula
+
+L2 and M2 are the cells to be combined
+
+& is the combining operator
+
+", " inserts a literal comma and a space between each value (in other cases, any other characters can be inserted here)
+
+The result should be “mountain-200 silver, 42”
+
+To apply this formula to each cell in Column N, select N2 and move the mouse to bottom right corner of cell N2, where the pointer will change to a plus sign (+), and drag down the column to copy the formula into each cell. You can also copy the cell and paste it into other cells, which will paste the formula with its correct cell references for that row.
+
+Note that what the cells in column N actually contain are formulas. What is needed are text values not formulas. Now we will convert these formulas to text values.
+
+Select cells N2 through N89 (or all of Column N) and click Copy in the toolbar.
+
+Select cells L2 through L89 and click the down arrow under the Paste button in the tool bar. In the dropdown menu select Paste Values.
+
+Column L should now have the model, color, and size information in each cell. If you click on a cell in column L it should contain text and not a formula.
+
+Since Column N with the formulas and Column M with just the sizes are no longer needed, they can be deleted.
+
+Part 2: Conditional Data Formatting
+In a data file, the values in the cells can be conditionally formatted depending on the cell values.
+
+Step 1: Conditional formatting numeric values
+
+In this step, values in the Revenue column will be colored based on the following criteria:
+
+Greater than $10,000: Green
+
+Greater than $5,000: Red
+
+Less than $5,000: Yellow
+
+Select all the values in the Revenue column, except the heading. Click Home > Conditional Formatting > Highlight Cells Rules > Between.
+In the Between dialog box, enter 5000 and 10000. Accept the default Light Red Fill with Dark Red Text. Click Done.
+Repeat for values greater than 10,000.Click Home > Conditional Formatting > Highlight Cells Rules > Greater Than. Then enter 10000 in the in the Rules field and select Green Fill with Dark Green Text. Click Done.
+For values less than 5000, click Home > Conditional Formatting > Highlight Cells Rules > Less Than. Enter 5000 in the in the field Format cells that are LESS THAN: and select the Yellow Fill with Dark Yellow Text.
+Values in the selected column will now be highlighted conditionally according to each value.
+
+Sorting all the data by Revenue, highest to smallest, will group the highlighted values. Highlight the whole sheet and click Data > Custom Sort. In the Custom Sort dialog box check the My data has headers box. In the Sort by Column drop box select Revenue.
+
+Step 2: Conditional formatting average values
+
+This step will conditionally format values in the Profit column that are above the average profit. It is best demonstrated if the previous Revenue formatting is undone.
+
+To clear the conditional formatting, click Home > Conditional Formatting > Clear rules > Clear Rules from Entire Sheet.
+Select the Profit column, click Conditional Formatting > Top/Bottom Rules > Above Average.
+Accept the default (Light Red Fill with Dark Red Text) in the Above Average dialog box. Click OK to continue.
+Profit values above the average are now highlighted in red.
+
+Step 3: Conditional formatting text values
+
+This step will conditionally format values in the Country column that match specified text; in this case, a country name. It is best demonstrated if any previous Revenue and Profit data sorting is undone.
+
+Clear all the conditional formatting again.
+Select the Country column. Click Conditional Formatting > Highlight Cell Rules > Text That Contains.
+In the empty text dialog box, enter Australia in the field Format cells that contain the text: and select the Green Fill with Dark Green Text. Click OK.
+All occurrences of Australia in the Country column are now highlighted in green with dark green text.
+Note: if this did not highlight any cells, it may be because you have a space after ‘Australia’ from copy-and-pasting. Make sure there are no empty spaces and try again.
