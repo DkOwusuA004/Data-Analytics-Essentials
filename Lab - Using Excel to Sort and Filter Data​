@@ -1,0 +1,85 @@
+Lab - Using Excel to Sort and Filter Data​
+Objectives
+In this lab, you will learn the basics of sorting and filtering data in Microsoft Excel.
+
+Part 1: Download and Prepare a Sample Data Set
+
+Part 2: Sort the Data
+
+Part 3: Filter the Data
+
+Background / Scenario
+Sorting and filtering the data facilitates data analysis through grouping and including or excluding specific data. This ensures consistency, accuracy, and better decision-making processes.
+
+Required Resources
+Mobile device or PC/laptop with a browser, Microsoft Excel, and internet access
+Note: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.
+
+Instructions
+Part 1: Download and Prepare a Sample Data Set
+Step 1: Adjust column widths.
+
+Open the downloaded sample CSV file Bike Sales_Sort_Lab 4.1.2.csv in Excel.
+
+To make all the data visible and more readable, enlarge the column widths to fit:
+1) Select the entire worksheet by clicking the top left corner. (The triangle left of column A.)
+2) Move the cursor to the line between two columns, for example, columns A and B, click and drag the mouse to the right until all data is visible.
+
+All columns are now wider and the same width. Adjust each column width so the column is only wide enough to contain the data.
+
+Note that text data is left justified in each cell, whereas numeric data is right justified.
+
+Step 2: Freeze top row.
+
+Because there are many rows of data, column headings will disappear when you scroll down the worksheet. You can freeze the top row so that this information is always visible.
+
+Click View > Freeze Panes > Select Freeze Top Row.
+Now if you scroll down, the heading for each column is still displayed.
+
+Note: The data has been changed for readability only, and it has not been sorted or manipulated. Because this is a text (CSV) file, any changes to presentation of the data (such as column width or freezing the top row) will not be retained unless the file is saved in Excel spreadsheet format.
+Part 2: Sort the Data
+In this part of the lab, you will sort the data by country and sub-category.
+
+Step 1: Select the Sort tool.
+
+Press Ctrl+A to select all the data.
+
+Click Home > click Sort & Filter > select Custom Sort.
+
+Step 2: Select the Sort criteria.
+
+Verify that the My data has headers checkbox is selected.
+
+Select Country as the Column for the Sort by dropdown list. Select Sort Ascending as the order.
+
+To sort by Sub-category, click + Add Level and select Sub_Category as the column. For Order, select Sort Ascending from the drop down.
+
+Click OK to continue. Note that the data is now sorted in ascending order by Country and then Sub-category.
+
+To clear sorting and filtering, select the column being sorted (Sub_Category, in this case). Then click on the Sort & Filter button in the toolbar and choose Clear.
+
+If you need to remove all filters in a worksheet, you can select the Sort & Filter tools and then click on the Filter option in the drop-down menu.
+
+Part 3: Filter the Data
+In this part, you will convert the data into a table and filter the data.
+
+Step 1: Covert data to a table.
+
+Before filtering the data information, it is best to convert it to a table. Use Ctrl+A to select all the data.
+
+To convert the data, click Home > select Format as Table.
+
+Select a table style of your choosing. Ensure that the checkbox My table has headers is selected. Click OK to accept the range of cells to be in the table.
+
+Under Table Name, replace Table1 with BikeSales as the table name.
+
+Step 2: Set and display filtered data.
+
+Note the drop-down arrows at the top of each column of the table. By clicking the drop down on each column, you can filter the data to view only rows that match those specific values.
+For example, click the drop-down arrow on the Age_Group column. Unselect the (Select all) checkbox and select Young Adults (25-34).
+
+Note the row numbers on the left of the table. The data has not been moved; filtering is displaying only those rows that you chose.
+
+Note the filtered column, Age_Group, shows a Filter icon instead of the dropdown arrow to indicate the data is being filtered by that column.
+
+To show all data in a column, click the Age Group drop down button again and check the (Select all) checkbox.
