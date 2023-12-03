@@ -1,0 +1,75 @@
+​​Lab - Working with CSV Files​
+Objectives
+Part 1: Opening a CSV File
+
+Part 2: Creating a CSV File
+
+Part 3: Fixing Common Errors in Importing CSV Files
+
+Background / Scenario
+CSVs are not the same as traditional spreadsheets because they do not have the saved cell, column, or row values, nor do they contain formulas. CSV files can contain numbers and letters only, even though in Microsoft Excel or Google Sheets the CSV file may look like a traditional spreadsheet.
+
+CSV files are plain text files, which makes them easier for a developer to create, and easier for you to import into a spreadsheet or storage database regardless of software.
+
+CSV files are easy to organize and manipulate and are primarily used for importing and exporting information to and from the source database. They are also easy to convert into traditional file formats like .xls/.xlsx, .txt, or .html.
+
+Usually, the first row in a CSV file contains the table column labels. Each of the subsequent lines represents a row of the table. Commas separate each cell in the row, which is where the name “Comma Separated Values” comes from.
+
+Required Resources
+Mobile device or PC/laptop with a browser, Microsoft Excel, and internet access.
+
+Note: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.
+
+Instructions
+Part 1: Opening a CSV File
+Step 1: Open the Bike Sales_Lab.csv file in a text editor.
+
+Open the downloaded Bike Sales_Lab.csv in Notepad or another text editor.
+Right click the file and select Open With > Notepad.
+Alternatively, launch Notepad and select File > Open then navigate to the directory containing the Bike Sales_Lab.csv file. Change Notepad to look for All Files, then select the Bike Sales_Lab.csv file and click Open.
+Review the data in the text editor to answer the following questions:
+How many columns are in the file? What are the column headings?
+Answer Area
+6
+Show Answer
+What is the delimiter used to separate the columns?
+Answer Area
+comma
+Show Answer
+Close the text editor when done.
+Step 2: Open the Bike Sales_Lab.csv file in Excel.
+
+Open the Bike Sales_Lab.csv in Excel
+
+How many columns are displayed in Excel? Are these the same columns that you noted in the previous step when opening the file in a text editor?
+Answer Area
+6
+Show Answer
+Part 2: Creating a CSV File
+Many applications or websites require data uploaded as a CSV. The free version of Excel from Office.com does not support saving as a .csv file; however, the full version of Excel and the free OpenOffice spreadsheets software, called Calc, both do.
+
+Please Note: The steps that follow are true for either the full version of Excel or OpenOffice Calc.
+
+Step 1: Launch a paid version of Excel or the free OpenOffice Calc.
+
+Step 2: Enter data into a blank worksheet.
+
+Enter the following data into a worksheet as shown.
+
+
+Step 3: Save the worksheet as a CSV file.
+
+To save your worksheet as a CSV file, select File > Save As. Choose a destination directory, name the file “MyCSV”, and save it as a CSV (Comma delimited)(*.csv) if you’re using Excel, or as Text CSV (.csv)(*.csv) if using OpenOffice.
+(1) If using OpenOffice, you will be prompted with a pop-up window about file formatting; click the Keep Current Format button. Next, in the Export Text File window, keep the defaults and click OK.
+After saving the file, navigate to the destination directory, and open it in Notepad or another text editor. The file should look similar to the figure below. The file is ready to upload to the desired application.
+
+Part 3: Fixing Common Errors in Importing CSV Files
+If you work with importing CSV files, you will eventually run into input errors. Data can be messy, and imports do not always work flawlessly.
+
+When importing CSV files, there are a few common issues that often occur, and are detailed below.
+
+Incorrect File Type Error
+
+If you attempt to import a CSV file without the .csv extension, you will get an error like the one below. This could happen if you created your file in a text editor and forgot to save it as a ".CSV" file type (instead, it may be a ".TXT" file). Or, perhaps you used Excel and forgot to save as CSV, but just left it as the default ".xlsx".
+
+You attempted to upload file type that is not allowed. Please upload files in .csv format only.
