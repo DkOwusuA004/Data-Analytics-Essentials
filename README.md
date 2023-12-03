@@ -45,19 +45,19 @@ This repository contains all my projects while completing Cisco's Data Analytics
 
 ## Module 5: Analyse the data using statistics
 ### Creating Visualisations with Excel
-<a href="">Lab - Creating Visualisations in Excel</a>
+<a href="https://skillsforall.com/launch?id=1b81c11b-147b-49aa-8f87-a3469f24d280&tab=curriculum&view=a73a16dc-0f87-551f-b0d3-7d43e3d422ab">Lab - Creating Visualisations in Excel</a>
 <br>
-<a href=""></a>
+<a href="Bike_Sales_Visualizations_Lab.xlsx">Bike sales visualizations</a>
 
 ### Addressing anomalies in data 
-<a href="">Lab - Interperate visualisations with respect to outliers</a>
+<a href="https://skillsforall.com/launch?id=1b81c11b-147b-49aa-8f87-a3469f24d280&tab=curriculum&view=f1be7776-45c9-5986-a27a-3ee5a5e81674">Lab - Interperate visualisations with respect to outliers</a>
 <br>
-<a href=""></a>
+<a href="Bike_Sales_Outlier_Lab.xlsx">Excel - Bike Sales Outliers</a>
 
 ### Using Excel to address issues with data 
-<a href="">Lab - Using VLOOKUP in data analysis</a>
+<a href="https://skillsforall.com/launch?id=1b81c11b-147b-49aa-8f87-a3469f24d280&tab=curriculum&view=6074821c-3552-556f-ae7d-ed518acf6329">Lab - Using VLOOKUP in data analysis</a>
 <br>
-<a href=""></a>
+<a href="Bike_Sales_VLOOKUP.xlsx">Excel - Bike sales VLOOKUP</a>
 
 <!-- Module 6!-->
 
