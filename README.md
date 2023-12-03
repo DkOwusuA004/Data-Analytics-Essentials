@@ -20,7 +20,7 @@ This repository contains all my projects while completing Cisco's Data Analytics
 ### Data Preparation
 <a href="https://skillsforall.com/launch?id=1b81c11b-147b-49aa-8f87-a3469f24d280&tab=curriculum&view=9ff9cfd5-c74d-5cf6-8ee3-ecd9414c603b">Lab - Preparing Data</a>
 <br>
-<a href="Bike_Sales_Prepare_Lab_3.4.7.xlsx">Bike sales prepare lab (fixed)</a>
+<a href="Bike_Sales_Prepare_Lab_3.4.7.xlsx"> Excel - Bike sales prepare lab (fixed)</a>
 
 <!-- Module 4!-->
 
