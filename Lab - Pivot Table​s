@@ -1,0 +1,134 @@
+Lab - Pivot Table​s
+Objectives
+In this lab, you will learn the basics of creating a pivot table in Microsoft Excel. Pivot tables provide a way to automatically summarize, analyze, explore, and present data. Charts add visualizations to the data in the pivot table that analyze trends and comparisons.
+
+Part 1: Creating an Excel Pivot Table
+
+Part 2: Visualizing Pivot Table Data​​​​​​​
+
+Background / Scenario
+The bicycle sales company wants to determine the purchasing patterns of different demographic groups to identify areas where it needs to concentrate its marketing efforts. The company also wants to see if there are purchasing differences between the countries where it operates.
+
+Pivot tables can reveal useful information in records or data that is not obvious at first sight by summarizing and re-presenting the data so trends can be explored and reported. Pivot tables extract meaning from the data by grouping it in different ways, enabling useful conclusions to be made.
+
+The "pivot" part of a pivot table stems from the fact that that the data can be rotated (pivoted) to view it from a different perspective.
+
+It is important to note that pivot tables do not add to, subtract from, or otherwise change, the data; the pivot table just reorganizes the data to reveal useful information.
+
+Required Resources
+Mobile device or PC/laptop with an internet connection and the free version of Microsoft 365 Excel online or similar spreadsheet program
+Note: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.
+
+Instructions
+Part 1: Creating an Excel Pivot Table
+To facilitate readability of the data, resize the column widths and center the data in the numeric columns. This exercise will focus on Year, Age Group, Customer Gender, Country, and Order Quantity data.
+
+Accordingly, it may also be useful to hide the Customer Age, State, Product Category, Sub-Category, Product columns.
+
+Step 1: Create the pivot table.
+
+Download the Bike Sales_Pivot_Lab.xlsx and save it to your OneDrive. Open the file in MS 365 Excel online. Click the Insert menu tab and select Pivot Table. In the Create Pivot Table dialog box, make sure New Worksheet is selected and click OK.
+In the PivotTable Fields dialog box, select the following fields: Year, Age Group, Country, and Order Quality.
+The pivot table created displays each country grouped under each age group, with the sum of the order quantity for each age group in total, and the total for each country under that age group.
+
+
+Step 2: Review the pivot table.
+
+Note that pivot tables will automatically sum numeric data under each heading. However, in this case, this produces the meaningless sum of all the year values. So, year values are not useful to include at this stage.
+
+Uncheck Year in the PivotTable Fields dialog and update the pivot table. (Selecting any cell in the pivot table will bring the PivotTables Fields dialog box back up if it is no longer visible.)
+The information now makes more sense with the total of orders for each age group shown, with the country breakdown for that country.
+
+In the pivot table, click the - (minus) beside each age group label to collapse (hide) the countries listed under that age group.
+
+To display the countries again, click the now displayed + (plus) displays the country sales numbers.
+
+Step 3: Rearrange the pivot table.
+
+To create a different view of the data, drag Country in the PivotTable Fields dialog box to the Columns pane.
+
+The updated pivot table now displays the countries as columns with sales totals for each age group and each country:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What happened to the table?
+Answer Area
+Type your answer here
+Show Answer
+Step 4: Refine the pivot table.
+
+The pivot table now contains blank cells, which detract from the readability of the table. Excel can be instructed to fill each blank cell with zero.
+
+Click the Pivot Table tab on the menu bar. Under Pivot Table, click Settings. In the field For empty cells show, select the checkbox and enter 0 (zero). Press Enter to update the table.
+The column values can be centered for better readability. Center all the columns with numbers.
+The first column can be filtered to re-order the age groups from youngest to oldest. Click the Filter and Sort down arrow next to the Age_Group column heading. Click Sort Descending to sort age groups from Youth to Adults.
+Step 5: Revise the pivot table.
+
+To enhance the data analysis, select Customer_Gender to add the field into the pivot table.
+Note that any blank cells are automatically filled with zero as set from a previous step.
+
+Clicking the – next to each age group will hide the gender for that age group and + will expand that data category.
+
+Part 2: Visualizing Pivot Table Data
+Presenting the pivot table as a graphical chart will highlight features of the data and assist in analysis and decision making.
+
+Step 1: Create a pivot table chart.
+
+Select all the cells in the pivot table. Click Insert from the menu bar. The chart icon group appears on the ribbon.
+
+Find and select the stacked column icon in the drop down.
+
+Re-size and move the chart for optimum clarity.
+
+Right click the chart to bring up a pop-up menu and select Format from the menu list. This will bring up the Chart Format dialog. Click Chart Title. Change the Chart Title to “Sales Summary.”
+
+The resulting chart should look similar to the example below, but colors may vary.
+
+
+Step 2: Analyze the chart data.
+
+Remember the original aim was to determine where marketing effort needs to be applied in specific markets to reach under-represented demographic groups and to see if there are differences between the countries where it operates.
+
+The chart graphically shows that the youth age group is globally the poorest area of sales. Female adults are buying the most product.
+
+Questions that the company can pose, and then develop business decisions in relation to, may include:
+
+Why does the youth age group have the lowest sales globally?
+
+Why are there sales in Australia in all categories except male youth?
+
+Why are there no sales to adult males in France?
+
+Why is there only one successful market category in the United Kingdom?
+
+Step 3: Revise the chart format.
+
+You can revise the chart, so it only shows the values for each age group.
+
+Click the – next to each age group in the pivot table to hide the gender information.
+This chart now shows the aggregated sales data across each age group for each country.
