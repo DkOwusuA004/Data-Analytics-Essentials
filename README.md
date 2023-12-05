@@ -41,7 +41,7 @@ This repository contains all my projects while completing Cisco's Data Analytics
 <br>
 <a href="Bike_Sales_Functions_Lab.xlsx">Excel - Bike Sales Function</a>
 
-<a href="">Lab - Pivot tables</a>
+<a href="Lab - Pivot Table​s">Lab - Pivot tables</a>
 <br>
 <a href="Bike_Sales_Pivot_Lab.xlsx">Excel - Bike sales pivot</a>
 
