@@ -36,11 +36,11 @@ This repository contains all my projects while completing Cisco's Data Analytics
 <br>
 <a href="Bike_Sales_Manipulate_Lab_4.2.7.xlsx">Excel - Bike sales manipulate</a>
 
-###Data calculations
-<a href="">Lab - Formulas and functions</a>
-<br>
-<a href=""></a>
 ### Data calculations
+<a href="Lab – Formulas and Functions​">Lab - Formulas and functions</a>
+<br>
+<a href="Bike_Sales_Functions_Lab.xlsx">Excel - Bike Sales Function</a>
+
 <a href="">Lab - Pivot tables</a>
 <br>
 <a href="Bike_Sales_Pivot_Lab.xlsx">Excel - Bike sales pivot</a>
