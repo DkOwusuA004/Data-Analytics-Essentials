@@ -1,0 +1,127 @@
+Lab - Dashboarding​
+Objectives
+This lab uses Tableau Desktop Public, a free version of the Tableau desktop product, to create a simple dashboard to answer questions based on a sample movie dataset.
+
+Part 1: Connecting to the Data
+
+Part 2: Answering the Questions
+
+Background/Scenario
+Dashboards are pages that can display multiple views of your data on the same screen. A dashboard can also be interactive, enabling a viewer to select or highlight information. Using the built-in Tableau dataset Hollywood’s Most Profitable Stories, you will create a dashboard that displays the highest rated movies, the most profitable genre, and interactive details about each movie.
+
+Required Resources
+PC with internet access
+
+Tableau Desktop App
+
+Instructions
+Part 1: Connecting to the Data
+Data analysis starts with a question or an issue. In this part, you will create worksheets that will help you answer the following questions:
+
+How are the most profitable movies rated by viewers and critics?
+
+How much revenue did each of the top-rated films generate for its studio?
+
+Which movie had the highest worldwide gross?
+
+Step 1: Connect to the dataset.
+
+Open Tableau Desktop. In the start page, select Sample Data Sets in the Discover Pane on the right.
+
+Scroll down to the Entertainment category. Download the Hollywood’s Most Profitable Stories Dataset (csv).
+
+When the download is completed, return to Tableau Desktop. In the Connect pane, select Text file.
+
+Locate and open the Hollywood’s Most Profitable Stories CSV file that you downloaded previously.
+
+Step 2: Create a composite of the two ratings in the database.
+
+In Data Source summary page, it is necessary to create a new field using both the Audience Score % and the Rotten Tomatoes % fields to determine the overall rating.
+
+Click the dropdown arrow at the top of any column. Select Create Calculated Field.
+
+Name the calculated field Combined Rating. Copy and paste the formula shown in the space where you see orange text to create the calculation.
+
+([Audience  score %]+[Rotten Tomatoes %])/2
+Verify the calculation is valid. Select OK to create the field. Check the column headings to verify the new column was created and that the result of the calculation is displayed.
+
+What type of field is shown for the new Combined Score?
+Answer Area
+NUMBER
+Show Answer
+Part 2: Answering the Questions.
+Step 1: Answer question 1.
+
+You will answer the question, “How are the most profitable movies rated by viewers and critics?”
+
+Click the Sheet 1 tab at the bottom of the screen to open the workspace. The fields in your data table are located in the left panel.
+
+Drag the field Combined Rating to the Columns shelf at the top of the workspace.
+
+For the first analysis, drag the Genre and the Film fields to the Rows shelf at the top of the workspace in that order.
+
+What type of chart does Tableau select by default to visualize this data?
+Answer Area
+horizontal bar
+Show Answer
+Now we will create a filter to show only the top 10 films by Combined Rating. Drag Film from the Tables heading to the Filters card to its right.
+
+Using the Top tab in the Filter [Film] window, select By Field. If the Combined Rating does not appear in the by field dropdown, click the arrow and select it. Click Apply. Choose OK to close the Filter settings.
+
+Select the down arrow next to the Film heading on the chart. From the dropdown, select Field > Combined Rating. The films in each genre will now be sorted by highest or lowest rating. Note that clicking once on the sort icon will sort from smallest to largest and clicking again will sort from largest to smallest. The icon reflects which sort order you are seeing.
+
+If desired, change the bar color by using the Color selection in the Marks card.
+
+It is necessary to create the mark for the Film field from the Tables heading to make the dashboard interactive. To do this, drag the Film field to the bottom of the Marks card.
+
+Right click the sheet title at the bottom of the worksheet to Rename Sheet1 to Top 10 Rated Films by Genre.
+
+Step 2: Answer question 2.
+
+The next question to answer is “How profitable were each of the top-rated films?” A second worksheet is needed for this analysis.
+
+Open a second worksheet using the + icon at the bottom of the screen.
+
+Start by dragging the Film field to the Columns shelf. Then add Profitability to the Rows shelf. A chart showing the profitability of each film should be displayed.
+
+What type of chart is selected for the Profitability sheet?
+Answer Area
+bar
+Show Answer
+Using the dropdown in the Marks card, select Circle. This will cause the profitability to show as a circle for each movie. Click the Detail selection in the Marks card, as well.
+
+Because the dashboard will be interactive using the Film mark, drag the Film field to the bottom of the Marks card.
+
+Which film had the highest profitability? Hover over the circle to see the film name.
+Answer Area
+Type your answer here.
+Show Answer
+Rename the sheet by double clicking on the sheet name and typing the new name, Movie Profitability.
+Step 3: Answer question 3.
+
+The last question to be answered for the dashboard is “Which movie had the highest worldwide gross?” Create a new sheet to answer this question.
+
+Drag the Film field to the Columns shelf. Drag the Worldwide Gross field to the Row shelf.
+
+In the Marks card, select Square from the dropdown menu. Select Detail and drag the Film field to the bottom of the Marks card.
+
+Rename the sheet Worldwide Gross.
+
+Part 3: Creating an Interactive Dashboard
+From the main menu, select Dashboard > New Dashboard.
+
+Under Dashboard tab, verify that the default dashboard is set for Desktop. If not, from the main menu, click Dashboard > Device Layouts > Add Desktop. Click Default in the Dashboard pane if you do not see the list of Sheets.
+
+Under the Sheets list, the three sheets that were just created will be listed. Start creating the dashboard by dragging the first sheet to the workspace. The Top 10 Rated Films by Genre appears at the top of the workspace.
+
+Click the space below the graph and drag the Horizontal object from the Objects list on the left to the highlighted space. Use the down arrow next to the container to select floating. Position and resize the container as desired.
+
+While holding down the Shift key, drag the sheet Movie Profitability to the new horizontal tile. Repeat the process for the sheet Worldwide Gross.
+
+Right-click the empty space in lower left of Top 10 Rated Films by Genre and select Use as Filter.
+
+Click any movie in the Top 10 Rated Films by Genre container.
+
+The y-axis for a chart can be changed so that it remains the same for all movies, instead of adjusting based on the worldwide gross or profitability of the individual movie.
+
+Right-click on the y-axis labels on the Worldwide Gross chart (0, 200, 400, 600). Select Edit Axis and then select Fixed. The start and end should be the lowest and highest values of the field.
