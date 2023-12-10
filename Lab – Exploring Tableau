@@ -1,0 +1,114 @@
+Objectives
+This lab introduces Tableau Public, a free version of the Tableau product. The lab requires the registration and download of the free Tableau application.
+
+Part 1: Download and install the Tableau Public Desktop Application
+
+Part 2: Navigating the Tableau Interface
+
+Part 3: First Look at the Data
+
+Background/Scenario
+Visualizations are an important component of data analysis. Through visualization, comparisons and correlations can be shown in a manner that is clear and understandable. One of the most popular tools used by data analysts is Tableau. This lab uses the Tableau Public product to perform some preliminary analysis using a prepared data set containing information about movies distributed during the last decade.
+
+In this lab, you will use Tableau to create a visualization that provides information regarding the overall popularity and revenue from a set of movies in a dataset.
+
+Required Resources
+PC with internet access
+
+Tableau Desktop App
+
+Movies_data_2000.xlsx (must be downloaded)
+
+Instructions
+Part 1: Download and install the Tableau Public Desktop
+Step 1: Download Tableau.
+
+Navigate to the Tableau website using the link https://www.tableau.com/products/public/download. If desired, review the system requirements.
+
+Select DOWNLOAD TABLEAU PUBLIC from the button in the center of the screen.
+
+Fill in the registration information, including First Name, Last Name, business or school email, and select the Country/Region from the drop down.
+
+Review the Privacy Statement and then select Download the App again. The download should begin immediately; if not, follow the instructions to try again for Mac or Windows.
+
+Step 2: Install Tableau.
+
+Navigate to the download location and install the Tableau Public Desktop file. Refer to the generic instructions below for your operating system, if necessary:
+
+Windows: Run the installer and follow the prompts.
+
+Mac: Open the Disk image file (.DMG) and double-click the installer package (.PKG) to start the installation.
+
+On the Welcome screen, ensure that the product is the Tableau Desktop Public Edition, and read and accept the licensing agreement to continue the installation. Accept the default settings and click Install.
+
+Part 2: Navigating the Tableau Interface
+Step 1: Explore the Tableau interface.
+
+In this step, you will explore the Tableau interface, where the start page gives you several options.
+
+Start Tableau if needed after completing the installation. You will see the start page, which has three panes: Connect, Open, and Discover.
+
+Note: you can click the Tableau icon in the upper left corner to toggle between the start page and the authoring workspace page.
+
+Under Connect on the start page, you can connect to your data in various formats.
+
+On the right side of the start page, there is a Discover area that contains links to videos and sample data sets as well as training information. You can investigate these links to access additional information about Tableau.
+
+Step 2: Load the data.
+
+Under the Connect heading, click Microsoft Excel. Navigate to the location on your computer for the downloaded file Movies_data_2000.xlsx. Select the file and click Open to continue.
+
+The data set from the Movies Excel sheet is displayed in the Data Source pane at the bottom of the screen. The top of the gray bar across the middle of the window can be dragged up or down to change how much data is shown in this view.
+
+The table on the left displays the Fields from the Movies Excel sheet, along with icons that indicate what type of data the field contains. The Title field, for example, has an “Abc” icon next to it to indicate it is in text format, while the Budget field has a “#” icon next to it to indicate it is in numeric format. (You can also drag the line between these two panes left and right to change your view.) On the right, Tableau displays the data in columnar format, similar to Excel. Above the headers, it also shows the icons indicating data type. Verify that the column headers accurately represent the type of data contained in the column.
+
+Click one of the Abc icons to see all data type options. What field types are available for data, not counting Default or any of the Roles?
+
+Answer Area
+Type your answers here.
+Show Answer
+Part 3: First Look at the Data
+Step 1: Populate Sheet 1.
+
+Select Sheet1 from the tabs at the bottom of the workspace.
+
+The fields from the table are shown in the Data pane on the left side of the screen. On the right of the window are charting and graphing tools.
+
+To select the data fields to include in your visualization, you will drag them to either the column or row shelf at the top of the workspace.
+
+
+To look at the profit by year for the movies, drag the Release Date field from the Data pane to the Column shelf. A list of years should appear in the center of the workspace.
+
+Drag the Revenue field to the Rows shelf. A line graph should appear in the center of the workspace.
+
+Select “Bar” in the drop-down menu in the Marks toolbox (to the left of the line graph, below Filters) to change the type of the chart to a bar chart. Now the graph shows the total revenue for all movies for each year in the sheet.
+
+What year had the highest amount of revenue?
+Answer Area
+2016
+Show Answer
+Now drag the Popularity field to the Rows line, to the right of the Revenue entry.
+What happens when you drag the second field to the Rows line?
+Answer Area
+two charts
+Show Answer
+Step 2: Change to a combined view.
+
+If necessary, click the Show Me tab at top right to see the available visualization types. To see a description of each type and a suggestion for how to use it, hover the cursor over the image.
+
+Choose the Packed Bubbles visualization from the choices—its icon has colored circles. A packed bubbles chart is a way to show data that is charted on two or more axes (where two bar charts would be needed to show the same information). Note that the Marks toolbar now shows some information about how the fields are represented:
+
+
+This pane shows how the visualization works:
+
+The Popularity field, represented as a sum of the scores for all movies, is being represented by the size of the bubbles.
+
+The Release Date, as you can see, is shown (including the Year only) in the text inside each bubble.
+
+The colors indicate the sum of all Revenue for the movies released that year. Hover over the bubbles to understand how the darkness of the colors relates to the amount of revenue.
+
+Looking at the Packed Bubbles visualization, is it easy to guess which years had the best combination of popularity and revenue? Hover over the bubbles to see if your guess was correct.
+Step 3: Modify the chart to highlight the top and bottom years.
+
+Select Color from the Marks toolbox. Select Edit Colors.
+Choose any color from the Palette drop-down menu. Check the box next to Stepped Color. Enter 8 for the number of steps. Click OK.
