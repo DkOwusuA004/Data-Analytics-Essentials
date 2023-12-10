@@ -1,5 +1,5 @@
 # Data-Analytics-Essentials
-This repository contains all my projects while completing Cisco's Data Analytics Essentials course.
+This repository contains all the projects I completed while enrolled on Cisco's Data Analytics Essentials course.
 <details>
   <summary>Table of Contents</summary>
   <ul>
