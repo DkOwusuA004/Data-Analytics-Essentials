@@ -1,5 +1,17 @@
 # Data-Analytics-Essentials
 This repository contains all my projects while completing Cisco's Data Analytics Essentials course.
+<details>
+  <summary>Table of Contents</summary>
+  <ul>
+  <li><a href="https://github.com/DkOwusuA004/Data-Analytics-Essentials/edit/main/README.md#module-2-getting-started-with-data-gathering-and-investigation">Module 2: Getting started with Data Gathering and Investigation</a></li>
+  <li><a href="https://github.com/DkOwusuA004/Data-Analytics-Essentials/edit/main/README.md#module-3-preparing-and-cleaning-data-for-analysis">Module 3: Preparing and cleaning data for analysis</a></li>
+  <li><a href="https://github.com/DkOwusuA004/Data-Analytics-Essentials?tab=readme-ov-file#module-4-transforming-data-with-excel">Module 4: Transforming data with Excel</a></li>
+  <li><a href="https://github.com/DkOwusuA004/Data-Analytics-Essentials?tab=readme-ov-file#module-5-analyse-the-data-using-statistics">Module 5: Analyse the data using statistics</a></li>
+  <li><a href="https://github.com/DkOwusuA004/Data-Analytics-Essentials?tab=readme-ov-file#module-6-introduction-to-relational-databases-and-sql">Module 6: Introduction to relational databases and SQL</a></li>
+  <li><a href="https://github.com/DkOwusuA004/Data-Analytics-Essentials?tab=readme-ov-file#module-7-introduction-to-structured-queries">Module 7: Introduction to Structured Queries</a></li>
+  <li><a href="https://github.com/DkOwusuA004/Data-Analytics-Essentials?tab=readme-ov-file#module-8-introduction-to-tableau">Module 8: Introduction to Tableau</a></li>
+</ul>
+</details>
 
 <!-- Module 2!-->
 
@@ -75,10 +87,14 @@ This repository contains all my projects while completing Cisco's Data Analytics
 <a href="Lab - Grouping Data.html" target="_blank">SQL - Grouping Data</a>
 <a href="Lab - Calculated Columns.html" target="_blank">SQL - Calculated Columns</a>
 
+<!-- Module 7!-->
+
+
 ## Module 7: Introduction to Structured Queries 
 ### Combining SQL functions to extract data
 <a href="Lab - Joining Tables.html" target="_blank">SQL - Joining Tables</a>
 
+<!-- Module 8!-->
 
 ## Module 8: Introduction to Tableau
 ### Introducing Tableau
