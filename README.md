@@ -86,7 +86,11 @@ This repository contains all my projects while completing Cisco's Data Analytics
 <br>
 <a href="Movies_data_2000.xlsx" target="_blank">Excel - Movies data</a>
 
-### Create visualisations in Tableau
+### Create visualisations in Tableau & Tableau dashboards
 <a href="Lab - Creating a Visualization" target="_blank">Lab - Creating a Visualization</a>
 <br>
 <a href="HollywoodsMostProfitableStories.csv" target="_blank">CSV - Hollywoods Most Profitable Stories</a>
+<br>
+<a href="Lab - Dashboarding​" target="_blank">Lab - Dashboarding​</a>
+<br>
+<a href="https://public.tableau.com/shared/2WN3KWDWH?:display_count=n&:origin=viz_share_link" target="_blank">Tableau - Profitability and Worldwide Gross of Top 10 Rated Films by Genre​</a>
